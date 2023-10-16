@@ -1,0 +1,103 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    margin:150px ;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+}
+section{
+    margin: 200px 50px;
+   place-items: center;
+   border-style: none;
+    width: 80%;
+ padding: 10px;
+}
+h1{
+    font-family:  sans-serif;
+    font-weight:lighter;
+font-size: 24px;
+
+}
+table{
+    font-family:  sans-serif;
+    font-weight: 500;
+font-size: 16px;
+margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    height: 50%;
+}
+tr{
+   padding: 10px; 
+    text-align: center;
+    align-items: center;
+    border: 1px solid #000; 
+}
+td, th {
+    border: 0px solid #746b6b;
+    text-align: left;
+    padding: 10px;
+
+  }
+  tbody tr:nth-child(even){
+    background-color: #dddddd;
+  }
+  tbody tr:nth-child(odd){
+    background-color: #ffff;
+  }
+  table tbody button{
+width: 80px;
+height: 30px;
+border-radius: 5px;
+border: 0px;
+color: #fff;
+cursor: pointer;
+  }
+  section button{
+    background-color:rgb(19, 114, 19);
+    padding: 8px;
+     color: #fff; 
+     border: none;
+    margin-left: 2px;
+    margin-top: 20px;
+     width: 100px;
+      height: 30px;
+     border-radius: 10px;
+     cursor: pointer;
+  }
+
+@media (min-width:300px) and (max-width:800px) {
+
+    body{
+        margin:100px 0px ;
+    }
+    section{
+        margin: 50px 0px;
+        place-items: center;
+        width: 80%;
+      padding: 10px 2px;
+    }
+    table{
+        width: 80%;
+        height: 50%;
+    }
+    tr{
+        padding:5px; 
+        
+     }
+     td, th {
+         padding:5px;
+         
+       }
+       table tbody button{
+        width: 100px;
+        height: 30px;
+  margin-bottom: 5px;
+          }    
+    
+  }
